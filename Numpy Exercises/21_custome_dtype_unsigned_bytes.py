@@ -9,3 +9,9 @@ color = np.dtype([
 ])
 
 print(f'{color =}')
+
+"""
+#OUTPUT
+color =dtype([('r', 'u1'), ('g', 'u1'), ('b', 'u1'), ('a', 'u1')])
+
+"""
