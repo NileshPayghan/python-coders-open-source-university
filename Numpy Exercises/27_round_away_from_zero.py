@@ -7,6 +7,9 @@ z2=np.floor(z1)
 print(z2)
 z3=np.copysign(z2,z)
 print(z3)
+z = np.random.uniform(-10,+10,10)
+print(f'z {z}')
+print(np.trunc(z + np.copysign(0.5,z)))
 
 """
 #OUTPUT
